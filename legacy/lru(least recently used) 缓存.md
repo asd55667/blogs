@@ -1,5 +1,7 @@
 # lru(least recently used) 缓存
 
+> 准备秋招时刷题的笔记, 很多面经都重点提过 练习了 C 和 python 的版本, 还为次做了ppt动画
+
 最近也是刷leetcode碰到了，第一次接触lru的概念还是在去年读流畅的pyhton的时候,
 当时主要是了解了lru基本原理及其使用方法，今天来做些更细致的了解
 

@@ -1,5 +1,7 @@
 # requests.get
 
+> python网络编程练习过程中遇到的问题 心血来潮对当时python的request库的一番探究
+
 用`c` `socket` 写的跟`python` `requests.get`不一致
 即使`header`相同，抓取的`DOM`也有区别， 一个1700行， 一个才200多
 `header`字段不一样，光相应头跟部分`meta`,文本都出不来是什么鬼， `user-agent`换成`python-requests`, `body`至少有了点

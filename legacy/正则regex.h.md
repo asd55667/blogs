@@ -1,5 +1,7 @@
 # 正则regex.h
 
+> > 记录了C语言中正则的使用
+
 正则表达式，以特定的pattern来匹配字符串中的子串
 ```C
 #include <regex.h>

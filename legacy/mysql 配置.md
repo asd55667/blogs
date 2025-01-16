@@ -1,5 +1,7 @@
 # mysql 配置
 
+> 总是忘 当时记录觉得后面可能会用得上的
+
 ### 同一`ip`短时间内过多的连接错误 Host ‘XXXXXX’ is blocked because of many connection errors
 
 查看阈值

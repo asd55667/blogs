@@ -1,5 +1,7 @@
 # Vue问题汇总
 
+> 初次学习Vue2时记录的一些笔记
+
 ## 组件注册
 ```Vue
 Vue.component("component-name",{

@@ -1,5 +1,7 @@
 # mac问题汇总
 
+> 记录macos初次使用的一些问题
+
 ## 显卡切换
 `sudo pmset -a GPUSwitch i`     
 `i` = `0`/`1`/`2` `cpu`/`gpu`/`auto`

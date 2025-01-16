@@ -1,5 +1,7 @@
 # 手机缓存的B站转MP4
 
+> 手机下载的盗版视频被和谐了 导出B站手机m4s视频存到电脑上
+
 ```python
 # cmd chcp to check cmd encode
 # encode No

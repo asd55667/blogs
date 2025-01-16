@@ -1,5 +1,7 @@
 # flask-gunicorn restful api
 
+> 疫情后在家小公司实习部署的简易python服务
+
 选择解释器
 ```shell
 whereis python
