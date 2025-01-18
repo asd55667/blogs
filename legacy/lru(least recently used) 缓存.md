@@ -1,6 +1,6 @@
 # lru(least recently used) 缓存
 
-> 准备秋招时刷题的笔记, 很多面经都重点提过 练习了 C 和 python 的版本, 还为次做了ppt动画
+> 准备秋招时刷题的笔记, 很多面经都重点提过 练习了 C 和 python 的版本, 还为此做了ppt动画
 
 最近也是刷leetcode碰到了，第一次接触lru的概念还是在去年读流畅的pyhton的时候,
 当时主要是了解了lru基本原理及其使用方法，今天来做些更细致的了解
@@ -9,9 +9,8 @@
 ## 原理回顾
 从正式接触代码快两年了吧，自己也不是理解能力很强的那种，感觉学编程还是得从具体的行为去理解稍微要容易些些吧
 
-给定缓存窗口为3， 和[1, 2, 3, 4, 1, 3, 1, 1,  ? ]这么一串序列， 从右侧进入
+给定缓存窗口为3， 和`[1, 2, 3, 4, 1, 3, 1, 1,  ? ]`这么一串序列， 从右侧进入
 
-[video width="1280" height="720" mp4="https://wuchengwei.icu/wp-content/uploads/2020/05/lru_fast.mp4"][/video]
 
 数字指的键值， 黄色椭圆代表计算
 没想到用ppt做个动画这么麻烦，下回还是想办法能不能找个图形库实现下，手动搞这个还是有点吃亏
@@ -24,10 +23,10 @@
 lru的常规实现方法是哈希表和双向链表,  使用哈希表能在O(1)时间下找到键值，双向链表能在O(1)时间增删结点，并保持有序
 关于这两个数据结构的组合
 
-<center><img src="https://www.interviewcake.com/images/svgs/lru_cache__doubly_linked_list.svg?bust=205http:// "lru"" width = 50% height = 50% /></center><center>[图1](https://www.interviewcake.com/concept/java/lru-cache):点餐系统</center>
+<center><img src="https://www.interviewcake.com/images/svgs/lru_cache__doubly_linked_list.svg" width = "50%" height = "50%" /></center><center>[图1](https://www.interviewcake.com/concept/java/lru-cache):点餐系统</center>
 
 
-<center><img src="https://miro.medium.com/max/1300/0*fOwBd3z0XtHh7WN1.png" width = 70% height = 70% /></center><center>[图2](https://medium.com/@krishankantsinghal/my-first-blog-on-medium-583159139237)</center>
+<center><img src="https://miro.medium.com/max/1300/0*fOwBd3z0XtHh7WN1.png" width = "70%" height = "70%" /></center><center>[图2](https://medium.com/@krishankantsinghal/my-first-blog-on-medium-583159139237)</center>
 
 
 
@@ -351,17 +350,16 @@ void free_que(Deque *dq){
 
 <details>
 <summary>Output</summary>
-<p>
-
-	wcwa: 1 
-	wcwb: 2 wcwa: 1 
-	wcwc: 3 wcwb: 2 wcwa: 1 
-	wcwd: 4 wcwc: 3 wcwb: 2 
-	wcwa: 1 wcwd: 4 wcwc: 3 
-	wcwc: 3 wcwa: 1 wcwd: 4 
-	wcwa: 1 wcwc: 3 wcwd: 4 
-	wcwa: 1 wcwc: 3 wcwd: 4 
-	</p>
+```
+wcwa: 1 
+wcwb: 2 wcwa: 1 
+wcwc: 3 wcwb: 2 wcwa: 1 
+wcwd: 4 wcwc: 3 wcwb: 2 
+wcwa: 1 wcwd: 4 wcwc: 3 
+wcwc: 3 wcwa: 1 wcwd: 4 
+wcwa: 1 wcwc: 3 wcwd: 4 
+wcwa: 1 wcwc: 3 wcwd: 4 
+```
 </details>
 
 
