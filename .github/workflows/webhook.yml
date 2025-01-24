@@ -1,0 +1,13 @@
+name: webhook
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: trigger cloudflare deployment
+        run: curl -X POST ${{secrets.CF_DEPLOY_URL}}
+
