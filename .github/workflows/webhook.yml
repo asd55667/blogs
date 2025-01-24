@@ -5,9 +5,8 @@ on:
     branches: ["main"]
 
 jobs:
-  release:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: trigger cloudflare deployment
-        run: curl -X POST ${{secrets.CF_DEPLOY_URL}}
-
+        run: curl -X POST "${{secrets.CF_DEPLOY_URL}}"
