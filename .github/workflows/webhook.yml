@@ -10,3 +10,11 @@ jobs:
     steps:
       - name: trigger cloudflare deployment
         run: curl -X POST "${{secrets.CF_DEPLOY_URL}}"
+
+      - name: Trigger Blog Site Repository
+        run: |
+          curl -X POST \
+          -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/OWNER_B/REPO_B/dispatches \
+          -d '{"event_type": "trigger_action", "client_payload": {}}'
