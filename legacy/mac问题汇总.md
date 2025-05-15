@@ -1,3 +1,8 @@
+<!--
+updated: 2020年6月25日 09:40
+tags: [macos, zsh, vscode, xcode, homebrew]
+-->
+
 # mac问题汇总
 
 > 记录macos初次使用的一些问题
@@ -139,5 +144,3 @@ sudo chown wcw bp*
 `which、where`的话，只能看可执行文件的位置， 万能的`google`还是能找到， `lib`通常会在`/usr/local`, `binary`则是`/usr/bin` ，
 `sudo ln -s /usr/local/opt/openssl/include/openssl .`
 然后就能正常`#include <openssl/ssl.h>`
-
-<!-- 2020年6月25日 09:40 -->

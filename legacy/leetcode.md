@@ -1,3 +1,8 @@
+<!--
+updated: 2020年7月6日 23:54
+tags: [leetcode, algorithms, data structures, sorting, interview]
+-->
+
 # leetcode
 
 > 准备秋招时刷题的笔记
@@ -143,5 +148,3 @@ class SegmentTree:
 ### 有向图
 
 闭环， 标志位记录访问过的元素
-
-<!-- 2020年7月6日 23:54 -->

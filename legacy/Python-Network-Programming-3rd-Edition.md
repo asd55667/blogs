@@ -1,3 +1,8 @@
+<!--
+updated: 2020年7月26日 22:12
+tags: [python, networking, socket, tcp, udp, http, book]
+-->
+
 # Python网络编程（第3版）
 
 > 那会儿想学网络编程相关的 python稍微熟一点 知乎上的推荐书单之一
@@ -1215,5 +1220,3 @@ if __name__ == '__main__':
 基于`python`序列化模块`pickle`的`Pyro`、`RPyC`
 
 `rpyc`仅序列化`immutable`对象， 对`mutable`对象将会传递其标识符，适合用来协调不同网络位置的`python`对象
-
-<!-- 2020年7月28日 22:31  -->

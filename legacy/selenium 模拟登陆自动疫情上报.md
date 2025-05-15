@@ -1,3 +1,8 @@
+<!--
+updated: 2020年7月31日 09:24
+tags: [selenium, python, automation]
+-->
+
 # selenium 模拟登陆自动疫情上报
 
 > 疫情解封后 回学校每天的疫情状况上报 正好有阿里云服务器 写个脚本懒得手动操作了
@@ -135,5 +140,3 @@ fi
 crontab -e
 # 0 12 * * * /home/wcw/clean.sh
 ```
-
-<!-- 2020年7月31日 09:24  -->

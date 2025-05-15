@@ -1,3 +1,8 @@
+<!--
+updated: 2020年7月17日 09:26
+tags: [book, programming language, javascript]
+-->
+
 # JavaScript编程精解(第3版)
 
 > 入门js时阅读的书籍 知乎上关注的emacs大佬的推荐
@@ -678,5 +683,3 @@ fetch("http://node.wuchengwei.icu/api", {
 `node`中实例的`on`方法对应浏览器中的`addEventListener`
 
 `pipe`方法用来将`readable stream`转化为`writable stream`,  并不直接换回`promise`
-
-<!-- 2020年7月17日 09:26 -->

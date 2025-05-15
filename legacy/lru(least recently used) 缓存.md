@@ -1,3 +1,8 @@
+<!--
+updated: 2020年5月28日 23:46
+tags: [leetcode, algorithms, data structures, lru cache, c, python]
+-->
+
 # lru(least recently used) 缓存
 
 > 准备秋招时刷题的笔记, 很多面经都重点提过 练习了 C 和 python 的版本, 还为此做了ppt动画
@@ -377,5 +382,3 @@ fibonacci的实现留到下次写装饰器的时候再码字吧
 
 
 [visual memory](https://www.wiley.com/college/silberschatz6e/0471417432/slides/pdf2/mod10.2.pdf)
-
-<!-- 2020年5月15日 20:29 -->

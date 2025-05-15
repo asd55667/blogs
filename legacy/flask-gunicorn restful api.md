@@ -1,3 +1,8 @@
+<!--
+updated: 2020年7月8日 13:21
+tags: [flask, gunicorn, python, nginx, mysql, restful]
+-->
+
 # flask-gunicorn restful api
 
 > 疫情后在家小公司实习部署的简易python服务
@@ -85,5 +90,3 @@ query中文会乱码
 `latin`与十六进制`\x`组合一起并不能调用`decode`方法
 
 重建库设置utf8编码后，返回的响应为`\\u91cd\\u91cf`，可直接解码为中文， 库中select的中文也不乱码
-
-<!-- 2020年7月8日 13:21 -->

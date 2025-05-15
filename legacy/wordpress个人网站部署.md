@@ -1,3 +1,8 @@
+<!--
+updated: 2020年6月5日 16:54
+tags: [wordpress, linux, nginx, mysql, php, deployment, letsencrypt]
+-->
+
 # wordpress个人网站部署
 
 > 第一次LNMP部署个人博客 跟着jack-cui的博客学习
@@ -168,5 +173,3 @@ ExecStart=/bin/bash command
 [phpadmin](https://linuxize.com/post/how-to-install-phpmyadmin-with-nginx-on-centos-7/)
 [ssl](https://linuxize.com/post/secure-nginx-with-let-s-encrypt-on-centos-7/)
 [wordpress](https://linuxize.com/post/how-to-install-wordpress-with-nginx-on-centos-7/)
-
-<!-- 2020年6月5日 16:54  -->

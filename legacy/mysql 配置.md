@@ -1,3 +1,8 @@
+<!--
+updated: 2020年8月8日 10:41
+tags: [mysql, database]
+-->
+
 # mysql 配置
 
 > 总是忘 当时记录觉得后面可能会用得上的
@@ -22,5 +27,3 @@
 
 给予全部权限
 `GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'WITH GRANT OPTION;flush privileges;`
-
-<!-- 2020年8月8日 10:41  -->

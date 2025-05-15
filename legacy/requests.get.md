@@ -1,3 +1,8 @@
+<!--
+updated: 2020年7月28日 22:30
+tags: [python, requests, http, socket, ssl, networking, debugging, encoding]
+-->
+
 # requests.get
 
 > python网络编程练习过程中遇到的问题 心血来潮对当时python的request库的一番探究
@@ -124,5 +129,3 @@ Connection: Close\r\n\
 ---
 完结， `python`的不完整响应在于解码错误，解决方案是`errors`参数的设置， `ignore`或是`replace`,
 `c`中的问题在于之前`while`读操作的退出条件不准， `buffer`设置太小`realloc`再分配放大的使用不当造成， 实在太大可以采用指针数组， 分批次存储响应报文
-
-<!-- 2020年7月28日 22:30 -->

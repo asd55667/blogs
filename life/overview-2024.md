@@ -1,3 +1,8 @@
+<!--
+updated: 2025-01-25
+tag: [career, personal]
+-->
+
 # Overview of my 2024
 
 > This post is an overview of what I have done as a software engineer in 2024
@@ -51,4 +56,3 @@ blog site [wcw-blog](https://github.com/asd55667/wcw-blog) just ready, and you c
 ### vps ✅
 
 I have always been wondering an alternative self-hosted VPS to access global network, but I'm too lazy to do it. By the end of 2024, I already have one. And I will continuously maintain it as needed.
-<!-- 2025-01-25 -->

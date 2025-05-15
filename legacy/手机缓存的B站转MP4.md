@@ -1,3 +1,8 @@
+<!--
+updated: 2020年6月17日 15:36
+tags: [python, ffmpeg, m4s, mp4, automation]
+-->
+
 # 手机缓存的B站转MP4
 
 > 手机下载的盗版视频被和谐了 导出B站手机m4s视频存到电脑上
@@ -49,5 +54,3 @@ if __name__ == "__main__":
     out_dir = "D:/mp4_video"
     m4s2mp4(root, out_dir)
 ```
-
-<!-- 2020年6月17日 15:36  -->

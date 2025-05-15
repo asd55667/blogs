@@ -1,3 +1,8 @@
+<!--
+updated: 2020年6月22日 00:25
+tags: [lfu, cache, algorithm, data structures, python, interview]
+-->
+
 # lfu(Least Frequently Used)缓存
 
 > 准备秋招时刷题的笔记, 觉得比较重要单开的一篇
@@ -58,5 +63,3 @@ class LFUCache:
     def sort(self):
         self.elems = collections.OrderedDict(sorted(self.elems.items(), key=lambda x: x[1]))
 ```
-
-<!-- 2020年6月22日 00:25  -->
