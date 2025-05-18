@@ -1,5 +1,5 @@
 <!--
-updated: 2020年7月26日 22:12
+updated: 2020年7月28日 22:31
 tags: [python, networking, socket, tcp, udp, http, book]
 -->
 
