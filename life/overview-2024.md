@@ -1,6 +1,6 @@
 <!--
 updated: 2025-01-25
-tag: [career, personal]
+tags: [career, personal]
 -->
 
 # Overview of my 2024
