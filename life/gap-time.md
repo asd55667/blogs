@@ -5,6 +5,8 @@ tags: [personal, gap time]
 
 # What Happened During My Gap Time
 
+> Enjoy my life, find my passion
+
 ## Resign to Family
 
 I took the high speed train from Beijing to JiaXing in May 15, 2024, end up my journey of Beijing for 3 years. It's very happy to catch up anniversary with my lovely wife after few days.

@@ -1,6 +1,6 @@
 <!--
 updated: 2020年7月6日 23:54
-tags: [leetcode, algorithms, data structures, sorting, interview]
+tags: [leetcode, algorithm, data structures, sorting, interview]
 -->
 
 # leetcode

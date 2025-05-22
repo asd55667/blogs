@@ -1,6 +1,6 @@
 <!--
 updated: 2020年6月12日 09:03
-tags: [vue, vue2, framework]
+tags: [vue, framework]
 -->
 
 # Vue问题汇总

@@ -1,6 +1,6 @@
 <!--
 updated: 2020年5月15日 20:29
-tags: [leetcode, algorithms, data structures, lru cache, c, python]
+tags: [leetcode, algorithm, data structures, lru cache, c, python]
 -->
 
 # lru(least recently used) 缓存
